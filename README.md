@@ -1,16 +1,45 @@
-# uts_halal_finder
+# 🕌 Flutter Project - HalalFinder App
 
-A new Flutter project.
+A modern *Flutter-based halal product finder* app built for the UTS project.  
+This app integrates *Firebase*, *Provider state management*, and **Shared Preferences** to handle authentication, data persistence, and product management in a clean and modular architecture.
 
-## Getting Started
+## 🧩 Overview
+The app features:
+- *Firebase integration* for authentication and cloud data handling.  
+- *Provider architecture* for managing app state efficiently.  
+- *Shared Preferences* for local data storage.  
+- *Dynamic routing* based on user role:
+  - 👤 Regular users → *Home Page*  
+  - 🛠️ Admin users → *Admin Dashboard*  
+  - 🔐 Unauthenticated users → *Login Page*  
 
-This project is a starting point for a Flutter application.
+## 💡 Result
+When you run the app, it will:
+- Initialize Firebase with fallback handling.  
+- Load user preferences and services (Auth, Storage, Product).  
+- Display the appropriate page depending on login state and role.  
 
-A few resources to get you started if this is your first Flutter project:
+```
+-------------------------------
+|        HalalFinder App      |
+|                             |
+|  → Login (if not signed in) |
+|  → Home Page (user)         |
+|  → Admin Dashboard (admin)  |
+-------------------------------
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Used
+- *Flutter SDK*
+- *Dart Language*
+- *Firebase Core*
+- *Provider (State Management)*
+- *Shared Preferences*
+- *Material Design*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🌿 Theme & UI
+- Dark theme with *deep green accents* representing “Halal” identity.  
+- Rounded buttons, modern typography, and minimalistic form fields for a professional look.  
+
+✨ *A fully structured Flutter app combining Firebase, Provider, and modern design principles — built as part of a UTS project!*  
+````
